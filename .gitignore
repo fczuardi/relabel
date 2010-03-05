@@ -1,0 +1,16 @@
+ext/redis/adlist.o
+ext/redis/ae.o
+ext/redis/anet.o
+ext/redis/dict.o
+ext/redis/lzf_c.o
+ext/redis/lzf_d.o
+ext/redis/pqsort.o
+ext/redis/redis-benchmark
+ext/redis/redis-benchmark.o
+ext/redis/redis-cli
+ext/redis/redis-cli.o
+ext/redis/redis-server
+ext/redis/redis.o
+ext/redis/sds.o
+ext/redis/zipmap.o
+ext/redis/zmalloc.o
