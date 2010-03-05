@@ -1,0 +1,37 @@
+
+  Overview
+  --------
+  
+  Relabel has very few dependencies:
+
+  * Redis 1.2.3+  
+  * Python (with development libraries) 2.5+
+  * pycurl 7.16.2.1+
+  * simplejson 2.0.9+
+
+  Installing Redis
+  ----------------
+  
+  The Redis version used  is conveniently frozen under ext/. It also has
+  very few dependencies and is compilable usually without hassle in any
+  Linux distribution. To compile just 'cd' to ext/redis and run 'make'.
+  
+  Installing Python dependencies (Mac OS X)
+  -----------------------------------------
+  
+  sudo easy_install setuptools pycurl==7.16.2.1 simplejson
+  
+  Installing Python dependencies (Mac OS X)
+  -----------------------------------------
+  
+  sudo apt-get install python-dev python-pycurl python-simplejson
+
+  Configuration
+  -------------
+  
+  ...  
+  
+  Running
+  -------
+  
+  ...
