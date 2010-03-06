@@ -8,6 +8,7 @@
   * Python (with development libraries) 2.5+
   * pycurl 7.16.2.1+
   * simplejson 2.0.9+
+  * Fabric 0.9+
 
   Installing Redis
   ----------------
@@ -19,10 +20,10 @@
   Installing Python dependencies (Mac OS X)
   -----------------------------------------
   
-  sudo easy_install setuptools pycurl==7.16.2.1 simplejson
+  sudo easy_install setuptools pycurl==7.16.2.1 simplejson fabric
   
-  Installing Python dependencies (Mac OS X)
-  -----------------------------------------
+  Installing Python dependencies (Ubuntu)
+  --------------------------------------_
   
   sudo apt-get install python-dev python-pycurl python-simplejson
 
@@ -34,4 +35,4 @@
   Running
   -------
   
-  ...
+  Just type 'fab web' on the root directory to start the server.
