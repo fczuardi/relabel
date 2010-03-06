@@ -1,3 +1,4 @@
+run/*
 ext/redis/adlist.o
 ext/redis/ae.o
 ext/redis/anet.o
@@ -14,3 +15,6 @@ ext/redis/redis.o
 ext/redis/sds.o
 ext/redis/zipmap.o
 ext/redis/zmalloc.o
+ext/redis/redis.conf
+*.pyc
+lib/*.pyc
